@@ -30,23 +30,59 @@ But the workflow is painfully slow:
 
 **Brainstorm → Go to agent → Brainstorm → Come back → Share → Wait → Repeat**
 
-Humans are the bottleneck.
+The gap between ideas and execution was the real cost.
 
 ---
 
 # What It Looked Like
 
+<v-click>
+
 ```
 Ian: "Hey I had an idea about X"
+```
+
+</v-click>
+
+<v-click>
+
+```
 Rohan: "Cool, let me brainstorm with my agent"
 ... 20 minutes later ...
+```
+
+</v-click>
+
+<v-click>
+
+```
 Rohan: "Ok here's what my agent says"
+```
+
+</v-click>
+
+<v-click>
+
+```
 Ian: "Nice, let me check with mine"
 ... 20 minutes later ...
+```
+
+</v-click>
+
+<v-click>
+
+```
 Ian: "My agent agrees but suggests Y"
 ```
 
+</v-click>
+
+<v-click>
+
 One decision. Forty minutes. Two human relay hops.
+
+</v-click>
 
 ---
 layout: section
