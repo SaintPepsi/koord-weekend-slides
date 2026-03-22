@@ -82,7 +82,8 @@
 }
 
 .slidev-vclick-prior {
-  opacity: 0.75;
+  opacity: 0.6;
+  color: var(--gp-text-muted);
 }
 
 /* === Headline reveal === */

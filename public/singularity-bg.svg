@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="singCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.25"/>
+      <stop offset="20%" stop-color="#00d4ff" stop-opacity="0.12"/>
+      <stop offset="40%" stop-color="#7c3aed" stop-opacity="0.08"/>
+      <stop offset="70%" stop-color="#7c3aed" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ring" cx="50%" cy="50%" r="50%">
+      <stop offset="85%" stop-color="#00d4ff" stop-opacity="0"/>
+      <stop offset="92%" stop-color="#00d4ff" stop-opacity="0.06"/>
+      <stop offset="95%" stop-color="#00d4ff" stop-opacity="0.12"/>
+      <stop offset="98%" stop-color="#00d4ff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="#0d1117"/>
+
+  <!-- Converging lines toward center -->
+  <g stroke="#00d4ff" fill="none">
+    <line x1="0" y1="0" x2="960" y2="540" stroke-opacity="0.04" stroke-width="1"/>
+    <line x1="1920" y1="0" x2="960" y2="540" stroke-opacity="0.04" stroke-width="1"/>
+    <line x1="0" y1="1080" x2="960" y2="540" stroke-opacity="0.04" stroke-width="1"/>
+    <line x1="1920" y1="1080" x2="960" y2="540" stroke-opacity="0.04" stroke-width="1"/>
+    <line x1="960" y1="0" x2="960" y2="540" stroke-opacity="0.05" stroke-width="1"/>
+    <line x1="960" y1="1080" x2="960" y2="540" stroke-opacity="0.05" stroke-width="1"/>
+    <line x1="0" y1="540" x2="960" y2="540" stroke-opacity="0.05" stroke-width="1"/>
+    <line x1="1920" y1="540" x2="960" y2="540" stroke-opacity="0.05" stroke-width="1"/>
+    <line x1="300" y1="0" x2="960" y2="540" stroke-opacity="0.03" stroke-width="1"/>
+    <line x1="1620" y1="0" x2="960" y2="540" stroke-opacity="0.03" stroke-width="1"/>
+    <line x1="300" y1="1080" x2="960" y2="540" stroke-opacity="0.03" stroke-width="1"/>
+    <line x1="1620" y1="1080" x2="960" y2="540" stroke-opacity="0.03" stroke-width="1"/>
+    <line x1="0" y1="270" x2="960" y2="540" stroke-opacity="0.03" stroke-width="1"/>
+    <line x1="1920" y1="270" x2="960" y2="540" stroke-opacity="0.03" stroke-width="1"/>
+    <line x1="0" y1="810" x2="960" y2="540" stroke-opacity="0.03" stroke-width="1"/>
+    <line x1="1920" y1="810" x2="960" y2="540" stroke-opacity="0.03" stroke-width="1"/>
+  </g>
+
+  <!-- Concentric rings -->
+  <circle cx="960" cy="540" r="400" fill="none" stroke="#00d4ff" stroke-opacity="0.04" stroke-width="1"/>
+  <circle cx="960" cy="540" r="300" fill="none" stroke="#00d4ff" stroke-opacity="0.06" stroke-width="1"/>
+  <circle cx="960" cy="540" r="200" fill="none" stroke="#00d4ff" stroke-opacity="0.08" stroke-width="1"/>
+  <circle cx="960" cy="540" r="100" fill="none" stroke="#7c3aed" stroke-opacity="0.1" stroke-width="1"/>
+  <circle cx="960" cy="540" r="50" fill="none" stroke="#00d4ff" stroke-opacity="0.15" stroke-width="1.5"/>
+
+  <!-- Core glow -->
+  <circle cx="960" cy="540" r="500" fill="url(#singCore)"/>
+
+  <!-- Scattered particles converging -->
+  <g fill="#00d4ff">
+    <circle cx="200" cy="100" r="1.5" opacity="0.3"/>
+    <circle cx="400" cy="200" r="2" opacity="0.4"/>
+    <circle cx="600" cy="150" r="1.5" opacity="0.3"/>
+    <circle cx="800" cy="300" r="2.5" opacity="0.5"/>
+    <circle cx="1120" cy="280" r="2.5" opacity="0.5"/>
+    <circle cx="1300" cy="180" r="2" opacity="0.4"/>
+    <circle cx="1500" cy="250" r="1.5" opacity="0.3"/>
+    <circle cx="1750" cy="120" r="1.5" opacity="0.3"/>
+    <circle cx="150" cy="600" r="1.5" opacity="0.3"/>
+    <circle cx="350" cy="750" r="2" opacity="0.4"/>
+    <circle cx="550" cy="850" r="1.5" opacity="0.3"/>
+    <circle cx="750" cy="700" r="2" opacity="0.4"/>
+    <circle cx="1150" cy="720" r="2" opacity="0.4"/>
+    <circle cx="1400" cy="800" r="2" opacity="0.4"/>
+    <circle cx="1600" cy="900" r="1.5" opacity="0.3"/>
+    <circle cx="1780" cy="700" r="1.5" opacity="0.3"/>
+  </g>
+
+  <!-- Center bright point -->
+  <circle cx="960" cy="540" r="8" fill="#00d4ff" opacity="0.4"/>
+  <circle cx="960" cy="540" r="3" fill="#ffffff" opacity="0.6"/>
+</svg>
